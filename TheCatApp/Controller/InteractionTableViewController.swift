@@ -18,12 +18,17 @@ class InteractionTableViewController: UITableViewController {
         getAllInteractions()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        getAllInteractions()
+    }
+    
     func getAllInteractions() {
         do {
             votes = try context.fetch(VoteModel.fetchRequest())
         } catch {
             print(error)
         }
+        tableView.reloadData()
     }
 
     // MARK: - Table view data source
