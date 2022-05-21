@@ -1,10 +1,10 @@
 # TheCatApp
-Para esta prueba se deberán consumir los servicios rest de esta api https://api.thecatapi.com
+**iOS Technical Challenge**
 
-La primera pantalla debe haber un estilo de votación por raza, con un botón de me gusta y el otro de no me gusta debajo de la imagen de la respectiva raza,  el resultado debe ser guardado en el dispositivo de la forma en que el programador lo desee, para luego mostrarlos registros guardados  con fecha, nombre  y tipo De votación (Me gusta, No me gusta)
- 
-Crear una pantalla con el listado de gatos y que al dar tap esta redirigirá a una interna de detalle.
- 
-El programador tiene tres días para enviar la url del repositorio.
- 
-Aplicar la arquitectura que convenga.
+For this test, you will use the REST services of this API: https://api.thecatapi.com
+
+The first screen should have a voting style by race, with a like button and a dislike button below the image of the respective race. The result should be saved on the device in the way that the programmer want, to then show the saved records with date, name and voting type (Like, Dislike).
+
+Create a screen with the list of cats and that when tapped this would redirect to an internal detail.
+
+Apply the appropriate architecture.
